@@ -1,0 +1,21 @@
+# Stellar TOML for AG-XTROOP Token
+# More info: https://www.stellar.org/developers/guides/walkthroughs/stellar-toml.html
+
+[GENERAL]
+TOKEN_NAME = "AG-XTROOP"
+SYMBOL = "AG-XTROOP"
+DESCRIPTION = "AG-Xtroop is a Stellar xtroop. 10,000,000 xtroops per lumen bonded to silver and the lumen."
+DECIMALS = 7
+TOTAL_SUPPLY = 10000000
+
+[ISSUER]
+PUBLIC_KEY = "GARPXWTVB4QAGDZDCKV7ERN5GJTTMBSLOGPQPHYRVLYOW24CFB2SWCR5"
+HOME_DOMAIN = "agxtroop.com"
+
+[CONTACT]
+EMAIL = "xtrp@gmail.com"
+TWITTER = "@AG_XTROOP"
+
+[METADATA]
+ASSET_TYPE = "credit_alphanum12"
+BONDING = "Silver + Lumen"
